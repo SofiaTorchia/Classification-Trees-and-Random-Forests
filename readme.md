@@ -70,6 +70,12 @@ forest,err = mt.makeForest(treeNum, xTrain, colName, featNum, dataDim, tol)
 acc = mt.accuracy(forest, xTest, colName)
 ```
 
+# Use case - example
+In this [notebook](https://github.com/SofiaTorchia/Classification-Trees-and-Random-Forests/blob/master/Project.ipynb) 
+the algorithms are applied and tested on a use-case example.
+Moreover, an analysis of both run time and computational complexity are carried out,
+as well as a comparison with the scikit-learn implementation 
+(accuracy and out of bag error rate).
 
 
 
